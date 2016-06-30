@@ -1,0 +1,76 @@
+@import "https://fonts.googleapis.com/css?family=Pacifico";
+html {
+  background: url(../hacker.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+body {
+  background: transparent;
+  padding: 50px; }
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.animate {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s; }
+
+.action-button {
+  position: relative;
+  padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+  border-radius: 10px;
+  font-family: "Pacifico", cursive, "Cousine for Powerline";
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none; }
+
+.blue {
+  background-color: #3498DB;
+  border-bottom: 5px solid #2980B9;
+  text-shadow: 0px -2px #2980B9; }
+
+.red {
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31; }
+
+.green {
+  background-color: #82BF56;
+  border-bottom: 5px solid #669644;
+  text-shadow: 0px -2px #669644; }
+
+.yellow {
+  background-color: #F2CF66;
+  border-bottom: 5px solid #D1B358;
+  text-shadow: 0px -2px #D1B358; }
+
+.action-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid; }
+
+#box {
+  background: #333;
+  color: #ccc;
+  width: 200px;
+  padding: 8px 15px 8px 35px;
+  border-radius: 20px;
+  box-shadow: 0 1px 0 #ccc inset;
+  transition: 500ms all ease;
+  outline: 0; }
+  #box:hover {
+    width: 270px; }
+
+#no-input {
+  display: none; }
+
+h1 {
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; }
+
+/*# sourceMappingURL=index.css.map */
